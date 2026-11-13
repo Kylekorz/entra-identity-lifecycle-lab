@@ -17,3 +17,10 @@ I created a fictional employee, Alex Morgan, and managed his account and securit
 This lab used fictional information and manually assigned security groups. The groups were not connected to application permission.
 Manager and HR approvals were assumed as part of the scenario rather than processed through a ticketing system.
 
+## Employee Onboarding
+
+I started by creating Alex Morgan as the fictional employee. I set his department to Sales and the job title Sales Associate. I then created LAB-Sales as a security group with the membership type set to Assigned. I added Alex and verified he appeared in the group’s members list.
+
+<img width="975" height="358" alt="image" src="https://github.com/user-attachments/assets/a5ebea7a-5dac-4c6e-b425-f1e71d0f5145" />
+
+The screenshot above shows Alex is a member of LAB-Sales at this stage in the project.
