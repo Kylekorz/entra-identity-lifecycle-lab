@@ -14,6 +14,6 @@ I created a fictional employee, Alex Morgan, and managed his account and securit
 
 ## Lab Scope
 
-This lab fictional information and manually assigned security groups. The groups were not connected to application permission.
+This lab used fictional information and manually assigned security groups. The groups were not connected to application permission.
 Manager and HR approvals were assumed as part of the scenario rather than processed through a ticketing system.
 
