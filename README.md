@@ -24,3 +24,19 @@ I started by creating Alex Morgan as the fictional employee. I set his departmen
 <img width="975" height="358" alt="image" src="https://github.com/user-attachments/assets/a5ebea7a-5dac-4c6e-b425-f1e71d0f5145" />
 
 The screenshot above shows Alex is a member of LAB-Sales at this stage in the project.
+
+## Employee Department Transfer
+
+I created LAB-Marketing as a security group with assigned membership. I changed Alex’s department to Marketing and job title to Marketing Associate. I added Alex to LAB-Marketing and verified his membership. I removed him from LAB-Sales and verified he was absent.
+
+<img width="975" height="367" alt="image" src="https://github.com/user-attachments/assets/349e8750-ca86-4e1f-84e1-00e75fcb425a" />
+
+The screenshot above demonstrates Alex is a member of LAB-Marketing.
+
+<img width="975" height="363" alt="image" src="https://github.com/user-attachments/assets/4e4e2928-14e9-4a2d-97f5-0299d9ee4b24" />
+
+This picture demonstrates removing that I removed Alex from LAB-Sales.
+
+These pictures demonstrate removing the old membership prevents employees from accumulating group memberships as they change roles.
+
+
