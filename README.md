@@ -69,6 +69,15 @@ I reviewed Microsoft Entra audit logs to verify two offboarding actions: removin
 
  For the account-disable event, the Activity tab showed “Disable account” with a Success status. The Modified Properties tab showed AccountEnabled changing from true to false. This recorded the change from an enabled account to a disabled account.  
 
+ ## PowerShell User Reporting
+
+I used Microsoft Graph PowerShell to retrieve Alex Morgan’s display name, department, job title, and account status. I exported these details to a CSV report and checked that they matched the Entra portal.
+
+The script requests User.Read.All for read-only reporting. It prompts for the lab tenant ID, retrieves the account details, saves the report in Documents, and disconnects from Microsoft Graph.
+
+- [View the PowerShell script](Export-EntraLabUserReport.ps1)
+- [View the sample CSV report](Entra-Lab-User-Report.csv)
+
  ## Conclusion
 
  Overall, this review helped me distinguish between checking an account’s current state and verifying its change history. The account profile showed that Alex was disabled, while the audit logs recorded the actions taken during offboarding. These logs supported my verification of account disabling and group-membership removal; they did not demonstrate that every existing application session had ended. 
